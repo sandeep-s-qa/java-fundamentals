@@ -4,12 +4,12 @@ public class Day14NestedIf {
 
 	public static void main(String[] args) {
 		
-		boolean usernamecorrect = true;
-		boolean passwordcorrect = true;
+		boolean usernameCorrect = true;
+		boolean passwordCorrect = true;
 		
-		if (usernamecorrect) {
+		if (usernameCorrect) {
 			System.out.println("Username Verified");
-			if (passwordcorrect) {
+			if (passwordCorrect) {
 				System.out.println("Password Verified");
 				System.out.println("Welcome Sandeep");
 			}else{
